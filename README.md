@@ -42,5 +42,8 @@ Currently building practical solutions centered around automation, relational an
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KauaMatsuo&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="150" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=KauaMatsuo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="150" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=KauaMatsuo&theme=tokyonight&column=6&margin-w=15&no-frame=true" alt="GitHub Trophies" />
 </p>
