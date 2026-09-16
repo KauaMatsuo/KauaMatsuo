@@ -45,5 +45,5 @@ Currently building practical solutions centered around automation, relational an
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KauaMatsuo&theme=tokyonight&column=6&margin-w=15&no-frame=true" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=KauaMatsuo&theme=tokyonight&column=4&margin-w=15" alt="GitHub Trophies" />
 </p>
