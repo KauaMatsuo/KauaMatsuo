@@ -41,6 +41,6 @@ Currently building practical solutions centered around automation, relational an
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrst-anuraghazra1.vercel.app/api?username=KauaMatsuo&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="150" />
-  <img src="https://github-readme-stats-git-masterrst-anuraghazra1.vercel.app/api/top-langs/?username=KauaMatsuo&layout=compact&theme=tokyonight&hide=html,css" alt="Top Languages" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KauaMatsuo&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KauaMatsuo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" alt="Top Languages" height="150" />
 </p>
