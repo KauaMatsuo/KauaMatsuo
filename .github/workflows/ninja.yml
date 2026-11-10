@@ -1,0 +1,36 @@
+name: Atualizar dojo e registro ninja
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # todo dia, meia-noite no horário de Brasília
+  workflow_dispatch: # permite rodar manualmente pela aba Actions
+  push:
+    branches: [main]
+    paths: ['ninja_stats.py']
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Gerar registro ninja e minigame
+        run: python ninja_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/registro.svg assets/minigame.svg
+          git diff --staged --quiet || git commit -m "Atualiza registro ninja e minigame"
+          git pull --rebase
+          git push
